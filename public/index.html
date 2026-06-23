@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Research Intelligence</title><link rel="stylesheet" href="/styles.css"></head>
+<body><aside><div class="brand"><span>✦</span> Research<br>Intelligence</div><nav><a class="active">Overview</a><a href="#digests">Digest history</a><a href="#activity">Source activity</a><a href="#runs">Workflow runs</a></nav><div class="side-note">MCP-enabled<br><small>Four live research channels</small></div></aside>
+<main><header><div><p class="eyebrow">AI RESEARCH DASHBOARD</p><h1>Know what matters this week.</h1><p class="sub">Your autonomous research desk, tuned for signal.</p></div><button id="runButton"><span>↻</span> Run intelligence sweep</button></header>
+<section class="hero"><div><p class="eyebrow">WEEKLY BRIEF</p><h2 id="digestTitle">No intelligence brief yet</h2><p id="digestSummary">Run an intelligence sweep to collect research updates.</p></div><div class="hero-stats"><b id="updateCount">0</b><span>updates found</span></div></section>
+<section class="metrics" id="activity"></section>
+<section class="grid"><article class="panel" id="digests"><div class="panel-head"><div><p class="eyebrow">INTELLIGENCE ARCHIVE</p><h3>Recent digests</h3></div></div><div id="digestList" class="digest-list"></div></article><article class="panel" id="runs"><p class="eyebrow">ORCHESTRATION</p><h3>Workflow activity</h3><div id="runList" class="run-list"></div></article></section>
+</main><dialog id="digestDialog"><button class="close" onclick="digestDialog.close()">×</button><pre id="digestContent"></pre></dialog><script src="/app.js"></script></body></html>
